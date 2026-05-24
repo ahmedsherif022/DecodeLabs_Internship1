@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Career Advisor — AI & Real-World Stats Platform</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Main Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Marked CDN for Markdown Parsing in Chat -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Mermaid CDN for Roadmap Flowcharts -->
+    <script src="https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js"></script>
+</head>
+<body>
+    <div class="glass-bg"></div>
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+
+    <div class="app-container">
+        <!-- Brand Header -->
+        <header class="app-header">
+            <div class="brand">
+                <div class="brand-logo">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>Student Career Advisor</h1>
+                    <p>Real Developer Survey Stats + Generative AI Mentorship</p>
+                </div>
+            </div>
+            <div class="header-actions">
+                <button id="btn-open-compare" class="btn btn-secondary">
+                    <i class="fa-solid fa-right-left"></i> Compare Careers
+                </button>
+            </div>
+        </header>
+
+        <div class="main-layout">
+            <!-- Sidebar: suggestion deck and quick tools -->
+            <aside class="sidebar-panel">
+                <div class="glass-card panel-header">
+                    <h2><i class="fa-solid fa-compass"></i> Explore Paths</h2>
+                    <p>Click any path to load statistical insight and ask the AI advisor details.</p>
+                </div>
+                
+                <div class="suggestion-group">
+                    <h3>Data & AI Roles</h3>
+                    <div class="suggestion-chips">
+                        <button class="chip" data-role="Data Scientist"><i class="fa-solid fa-chart-line"></i> Data Scientist</button>
+                        <button class="chip" data-role="AI / ML Engineer"><i class="fa-solid fa-brain"></i> AI / ML Engineer</button>
+                        <button class="chip" data-role="Data Engineer"><i class="fa-solid fa-database"></i> Data Engineer</button>
+                        <button class="chip" data-role="Data / Business Analyst"><i class="fa-solid fa-magnifying-glass-chart"></i> Data Analyst</button>
+                    </div>
+                </div>
+
+                <div class="suggestion-group">
+                    <h3>Web & App Development</h3>
+                    <div class="suggestion-chips">
+                        <button class="chip" data-role="Full-Stack Developer"><i class="fa-solid fa-laptop-code"></i> Full-Stack Dev</button>
+                        <button class="chip" data-role="Back-End Developer"><i class="fa-solid fa-server"></i> Back-End Dev</button>
+                        <button class="chip" data-role="Front-End Developer"><i class="fa-solid fa-code"></i> Front-End Dev</button>
+                        <button class="chip" data-role="Mobile Developer"><i class="fa-solid fa-mobile-screen-button"></i> Mobile Dev</button>
+                    </div>
+                </div>
+
+                <div class="suggestion-group">
+                    <h3>Specialty Engineering</h3>
+                    <div class="suggestion-chips">
+                        <button class="chip" data-role="Cybersecurity Engineer"><i class="fa-solid fa-shield-halved"></i> Cybersecurity</button>
+                        <button class="chip" data-role="DevOps Engineer"><i class="fa-solid fa-infinity"></i> DevOps Engineer</button>
+                        <button class="chip" data-role="Cloud Engineer"><i class="fa-solid fa-cloud"></i> Cloud Engineer</button>
+                        <button class="chip" data-role="Game Developer"><i class="fa-solid fa-gamepad"></i> Game Dev</button>
+                        <button class="chip" data-role="Software Architect"><i class="fa-solid fa-sitemap"></i> Architect</button>
+                    </div>
+                </div>
+                
+                <div class="glass-card info-box">
+                    <h4><i class="fa-solid fa-database"></i> Data Grounding</h4>
+                    <p>All insights are based on <strong>49,191 response records</strong> from the Stack Overflow Survey 2024.</p>
+                </div>
+            </aside>
+
+            <!-- Chat Panel: Left conversational section -->
+            <section class="chat-panel">
+                <div class="chat-messages" id="chat-messages">
+                    <!-- Dynamic Messages will load here -->
+                    <div class="message system">
+                        <div class="avatar"><i class="fa-solid fa-user-tie"></i></div>
+                        <div class="bubble">
+                            <p>Hello! I am your <strong>Student Career Advisor</strong>. I have real-world career insights and salary statistics for 19 developer specializations.</p>
+                            <p>Select one of the career chips in the left sidebar, or ask me any question like <em>"What skills are needed to become a Data Scientist?"</em> or <em>"Compare Full-Stack and Backend developer salaries"</em> to start!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="chat-input-wrapper">
+                    <form id="chat-form" class="chat-form">
+                        <input type="text" id="chat-input" placeholder="Ask your Career Advisor..." autocomplete="off" required>
+                        <button type="submit" class="btn btn-primary" id="btn-send">
+                            <i class="fa-solid fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Dashboard Panel: Right visualization panel -->
+            <section class="dashboard-panel">
+                <!-- Welcome/Onboarding state (active by default) -->
+                <div id="dashboard-empty-state" class="glass-card empty-state">
+                    <div class="empty-icon"><i class="fa-solid fa-chart-bar"></i></div>
+                    <h2>Career Insight Dashboard</h2>
+                    <p>Select a developer path from the sidebar or ask the chatbot a question about a career. A real-world statistical breakdown will populate here instantly!</p>
+                    <div class="data-pulse-badge">
+                        <span class="pulse-dot"></span> Ready to analyze
+                    </div>
+                </div>
+
+                <!-- Active Career Dashboard Card -->
+                <div id="dashboard-active-state" class="glass-card career-card hidden">
+                    <div class="career-header">
+                        <div class="career-title-block">
+                            <span class="career-badge"><i class="fa-solid fa-users"></i> <span id="dash-sample-count">0</span> respondents</span>
+                            <h2 id="dash-role-name">Data Scientist</h2>
+                        </div>
+                        <div class="salary-display">
+                            <span class="lbl">MEDIAN ANNUAL SALARY</span>
+                            <span class="val" id="dash-median-salary">$0</span>
+                        </div>
+                    </div>
+
+                    <!-- Experience Scale -->
+                    <div class="dash-section border-top">
+                        <h3><i class="fa-solid fa-clock"></i> Coding Experience Profile</h3>
+                        <div class="experience-bar-wrapper">
+                            <div class="exp-label">
+                                <span>25th Percentile: <strong id="dash-exp-25">0</strong> yrs</span>
+                                <span>Median: <strong id="dash-exp-med">0</strong> yrs</span>
+                                <span>75th Percentile: <strong id="dash-exp-75">0</strong> yrs</span>
+                            </div>
+                            <div class="exp-range-bar">
+                                <div class="exp-bar-fill" id="dash-exp-bar-fill"></div>
+                                <div class="exp-bar-dot" id="dash-exp-bar-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Salary Distribution Gauge -->
+                    <div class="dash-section">
+                        <h3><i class="fa-solid fa-sack-dollar"></i> Global Salary Distribution</h3>
+                        <div class="salary-gauge-wrapper">
+                            <div class="sal-label">
+                                <span>Low (25th): <strong id="dash-sal-25">$0</strong></span>
+                                <span>Median: <strong id="dash-sal-med">$0</strong></span>
+                                <span>High (75th): <strong id="dash-sal-75">$0</strong></span>
+                            </div>
+                            <div class="salary-range-bar">
+                                <div class="sal-bar-fill" id="dash-sal-bar-fill"></div>
+                                <div class="sal-bar-dot" id="dash-sal-bar-dot"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Skills Tabs / Lists -->
+                    <div class="dash-section">
+                        <div class="tab-header">
+                            <h3><i class="fa-solid fa-screwdriver-wrench"></i> Popular Technologies</h3>
+                        </div>
+                        
+                        <div class="skills-container">
+                            <div class="skill-category">
+                                <h4>Languages</h4>
+                                <div id="dash-languages" class="progress-bar-list">
+                                    <!-- Dynamic Languages bars -->
+                                </div>
+                            </div>
+                            <div class="skill-category">
+                                <h4>Databases</h4>
+                                <div id="dash-databases" class="progress-bar-list">
+                                    <!-- Dynamic Databases bars -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Learning Roadmap Visualizer -->
+                    <div class="dash-section border-top roadmap-section">
+                        <div class="roadmap-heading">
+                            <div>
+                                <h3><i class="fa-solid fa-route"></i> Learning Roadmap</h3>
+                                <p>What do you know about this track?</p>
+                            </div>
+                            <div class="roadmap-progress-pill">
+                                <span id="roadmap-progress-label">0%</span> ready
+                            </div>
+                        </div>
+
+                        <div class="roadmap-layout">
+                            <div class="roadmap-visual">
+                                <div id="roadmap-diagram" class="roadmap-diagram"></div>
+                                <div id="roadmap-empty" class="roadmap-empty hidden">
+                                    Roadmap data is not available for this role yet.
+                                </div>
+                            </div>
+                            <div class="roadmap-assessment">
+                                <div id="roadmap-next-step" class="roadmap-next-step">
+                                    Select a track to see your next skill.
+                                </div>
+                                <div id="roadmap-controls" class="roadmap-controls"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education / Employment -->
+                    <div class="dash-section border-top">
+                        <div class="split-stats">
+                            <div class="stat-half">
+                                <h3><i class="fa-solid fa-graduation-cap"></i> Education Background</h3>
+                                <div id="dash-education" class="edu-list">
+                                    <!-- Dynamic Education list -->
+                                </div>
+                            </div>
+                            <div class="stat-half">
+                                <h3><i class="fa-solid fa-briefcase"></i> Employment Type</h3>
+                                <div id="dash-employment" class="emp-list">
+                                    <!-- Dynamic Employment list -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <!-- Career Comparison Modal -->
+    <div id="compare-modal" class="modal hidden">
+        <div class="modal-overlay"></div>
+        <div class="modal-content glass-card">
+            <header class="modal-header">
+                <h2><i class="fa-solid fa-right-left"></i> Side-by-Side Career Comparison</h2>
+                <button id="btn-close-compare" class="modal-close"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="modal-body">
+                <div class="compare-selectors">
+                    <div class="selector-box">
+                        <label for="select-role-1">Career Path A</label>
+                        <select id="select-role-1">
+                            <option value="" disabled selected>Select a career...</option>
+                            <!-- Dynamic Options -->
+                        </select>
+                    </div>
+                    <div class="selector-divider"><i class="fa-solid fa-arrows-left-right"></i></div>
+                    <div class="selector-box">
+                        <label for="select-role-2">Career Path B</label>
+                        <select id="select-role-2">
+                            <option value="" disabled selected>Select a career...</option>
+                            <!-- Dynamic Options -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="compare-results" id="compare-results">
+                    <!-- Standard comparative placeholder -->
+                    <div class="compare-placeholder">
+                        <p>Select two different career paths above to perform a side-by-side analysis of salaries, experience, education, and technology stacks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Load script logic -->
+    <script src="script.js"></script>
+</body>
+</html>

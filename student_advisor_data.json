@@ -1,0 +1,4629 @@
+{
+  "meta": {
+    "source": "Stack Overflow Developer Survey 2024",
+    "total_rows": 49191,
+    "roles_count": 19
+  },
+  "global_stats": {
+    "total_respondents": 49191,
+    "top_languages_overall": [
+      {
+        "name": "JavaScript",
+        "count": 21005
+      },
+      {
+        "name": "HTML/CSS",
+        "count": 19698
+      },
+      {
+        "name": "SQL",
+        "count": 18633
+      },
+      {
+        "name": "Python",
+        "count": 18410
+      },
+      {
+        "name": "Bash/Shell (all shells)",
+        "count": 15503
+      },
+      {
+        "name": "TypeScript",
+        "count": 13859
+      },
+      {
+        "name": "Java",
+        "count": 9358
+      },
+      {
+        "name": "C#",
+        "count": 8852
+      },
+      {
+        "name": "C++",
+        "count": 7485
+      },
+      {
+        "name": "PowerShell",
+        "count": 7371
+      },
+      {
+        "name": "C",
+        "count": 6987
+      },
+      {
+        "name": "PHP",
+        "count": 5994
+      },
+      {
+        "name": "Go",
+        "count": 5219
+      },
+      {
+        "name": "Rust",
+        "count": 4724
+      },
+      {
+        "name": "Kotlin",
+        "count": 3420
+      }
+    ],
+    "top_databases_overall": [
+      {
+        "name": "PostgreSQL",
+        "count": 14529
+      },
+      {
+        "name": "MySQL",
+        "count": 10581
+      },
+      {
+        "name": "SQLite",
+        "count": 9798
+      },
+      {
+        "name": "Microsoft SQL Server",
+        "count": 7871
+      },
+      {
+        "name": "Redis",
+        "count": 7316
+      },
+      {
+        "name": "MongoDB",
+        "count": 6267
+      },
+      {
+        "name": "MariaDB",
+        "count": 5862
+      },
+      {
+        "name": "Elasticsearch",
+        "count": 4347
+      },
+      {
+        "name": "Oracle",
+        "count": 2761
+      },
+      {
+        "name": "Dynamodb",
+        "count": 2551
+      },
+      {
+        "name": "BigQuery",
+        "count": 1705
+      },
+      {
+        "name": "Supabase",
+        "count": 1558
+      },
+      {
+        "name": "Cloud Firestore",
+        "count": 1494
+      },
+      {
+        "name": "H2",
+        "count": 1303
+      },
+      {
+        "name": "Firebase Realtime Database",
+        "count": 1299
+      }
+    ],
+    "top_frameworks_overall": [
+      {
+        "name": "Node.js",
+        "count": 11544
+      },
+      {
+        "name": "React",
+        "count": 10596
+      },
+      {
+        "name": "jQuery",
+        "count": 5541
+      },
+      {
+        "name": "Next.js",
+        "count": 4933
+      },
+      {
+        "name": "Express",
+        "count": 4710
+      },
+      {
+        "name": "ASP.NET Core",
+        "count": 4664
+      },
+      {
+        "name": "Angular",
+        "count": 4319
+      },
+      {
+        "name": "Vue.js",
+        "count": 4162
+      },
+      {
+        "name": "FastAPI",
+        "count": 3504
+      },
+      {
+        "name": "Spring Boot",
+        "count": 3481
+      },
+      {
+        "name": "Flask",
+        "count": 3406
+      },
+      {
+        "name": "ASP.NET",
+        "count": 3360
+      },
+      {
+        "name": "WordPress",
+        "count": 3227
+      },
+      {
+        "name": "Django",
+        "count": 2980
+      },
+      {
+        "name": "Laravel",
+        "count": 2111
+      }
+    ]
+  },
+  "role_profiles": {
+    "Data Scientist": {
+      "sample_count": 574,
+      "languages": [
+        {
+          "name": "Python",
+          "count": 395
+        },
+        {
+          "name": "SQL",
+          "count": 288
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 188
+        },
+        {
+          "name": "R",
+          "count": 181
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 179
+        },
+        {
+          "name": "JavaScript",
+          "count": 153
+        },
+        {
+          "name": "PowerShell",
+          "count": 88
+        },
+        {
+          "name": "C++",
+          "count": 77
+        },
+        {
+          "name": "Java",
+          "count": 66
+        },
+        {
+          "name": "TypeScript",
+          "count": 58
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 269
+        },
+        {
+          "name": "SQL",
+          "count": 190
+        },
+        {
+          "name": "R",
+          "count": 132
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 112
+        },
+        {
+          "name": "Rust",
+          "count": 103
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 87
+        },
+        {
+          "name": "JavaScript",
+          "count": 87
+        },
+        {
+          "name": "C++",
+          "count": 57
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 187
+        },
+        {
+          "name": "SQLite",
+          "count": 138
+        },
+        {
+          "name": "MySQL",
+          "count": 128
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 121
+        },
+        {
+          "name": "MongoDB",
+          "count": 71
+        },
+        {
+          "name": "Databricks SQL",
+          "count": 61
+        },
+        {
+          "name": "BigQuery",
+          "count": 57
+        },
+        {
+          "name": "MariaDB",
+          "count": 55
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Flask",
+          "count": 84
+        },
+        {
+          "name": "FastAPI",
+          "count": 81
+        },
+        {
+          "name": "Node.js",
+          "count": 69
+        },
+        {
+          "name": "React",
+          "count": 61
+        },
+        {
+          "name": "Django",
+          "count": 49
+        },
+        {
+          "name": "jQuery",
+          "count": 29
+        },
+        {
+          "name": "WordPress",
+          "count": 26
+        },
+        {
+          "name": "Next.js",
+          "count": 23
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 210
+        },
+        {
+          "name": "Pip",
+          "count": 202
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 148
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 119
+        },
+        {
+          "name": "Google Cloud",
+          "count": 101
+        },
+        {
+          "name": "npm",
+          "count": 82
+        },
+        {
+          "name": "Kubernetes",
+          "count": 72
+        },
+        {
+          "name": "Homebrew",
+          "count": 69
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 266
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 222
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 201
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 185
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 178
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 134
+        }
+      ],
+      "salary": {
+        "median_usd": 81210,
+        "p25_usd": 46891,
+        "p75_usd": 124519,
+        "sample_size": 344
+      },
+      "experience": {
+        "median_years": 11.0,
+        "p25_years": 7.0,
+        "p75_years": 17.0
+      },
+      "education": {
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 266,
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 146,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 128,
+        "Some college/university study without earning a degree": 20,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 6
+      },
+      "employment": {
+        "Employed": 445,
+        "Independent contractor, freelancer, or self-employed": 55,
+        "Student": 39,
+        "Not employed": 30
+      }
+    },
+    "AI / ML Engineer": {
+      "sample_count": 677,
+      "languages": [
+        {
+          "name": "Python",
+          "count": 416
+        },
+        {
+          "name": "SQL",
+          "count": 256
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 231
+        },
+        {
+          "name": "JavaScript",
+          "count": 218
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 200
+        },
+        {
+          "name": "TypeScript",
+          "count": 136
+        },
+        {
+          "name": "C++",
+          "count": 129
+        },
+        {
+          "name": "Java",
+          "count": 106
+        },
+        {
+          "name": "C",
+          "count": 79
+        },
+        {
+          "name": "PowerShell",
+          "count": 79
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 281
+        },
+        {
+          "name": "Rust",
+          "count": 163
+        },
+        {
+          "name": "SQL",
+          "count": 129
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 123
+        },
+        {
+          "name": "Go",
+          "count": 104
+        },
+        {
+          "name": "C++",
+          "count": 97
+        },
+        {
+          "name": "JavaScript",
+          "count": 94
+        },
+        {
+          "name": "TypeScript",
+          "count": 91
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 229
+        },
+        {
+          "name": "SQLite",
+          "count": 148
+        },
+        {
+          "name": "MySQL",
+          "count": 144
+        },
+        {
+          "name": "MongoDB",
+          "count": 110
+        },
+        {
+          "name": "Redis",
+          "count": 107
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 71
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 69
+        },
+        {
+          "name": "BigQuery",
+          "count": 64
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "FastAPI",
+          "count": 179
+        },
+        {
+          "name": "React",
+          "count": 127
+        },
+        {
+          "name": "Node.js",
+          "count": 118
+        },
+        {
+          "name": "Flask",
+          "count": 96
+        },
+        {
+          "name": "Next.js",
+          "count": 71
+        },
+        {
+          "name": "Django",
+          "count": 65
+        },
+        {
+          "name": "Express",
+          "count": 45
+        },
+        {
+          "name": "Vue.js",
+          "count": 40
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 310
+        },
+        {
+          "name": "Pip",
+          "count": 286
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 204
+        },
+        {
+          "name": "npm",
+          "count": 160
+        },
+        {
+          "name": "Google Cloud",
+          "count": 142
+        },
+        {
+          "name": "Kubernetes",
+          "count": 133
+        },
+        {
+          "name": "Poetry",
+          "count": 113
+        },
+        {
+          "name": "Homebrew",
+          "count": 109
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 315
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 279
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 258
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 249
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 241
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 184
+        }
+      ],
+      "salary": {
+        "median_usd": 87011,
+        "p25_usd": 37548,
+        "p75_usd": 150819,
+        "sample_size": 351
+      },
+      "experience": {
+        "median_years": 11.0,
+        "p25_years": 7.0,
+        "p75_years": 18.0
+      },
+      "education": {
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 269,
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 219,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 103,
+        "Some college/university study without earning a degree": 29,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 20
+      },
+      "employment": {
+        "Employed": 500,
+        "Independent contractor, freelancer, or self-employed": 80,
+        "Student": 58,
+        "Not employed": 34
+      }
+    },
+    "Data Engineer": {
+      "sample_count": 770,
+      "languages": [
+        {
+          "name": "Python",
+          "count": 518
+        },
+        {
+          "name": "SQL",
+          "count": 466
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 322
+        },
+        {
+          "name": "JavaScript",
+          "count": 236
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 215
+        },
+        {
+          "name": "Java",
+          "count": 139
+        },
+        {
+          "name": "PowerShell",
+          "count": 136
+        },
+        {
+          "name": "TypeScript",
+          "count": 101
+        },
+        {
+          "name": "C#",
+          "count": 92
+        },
+        {
+          "name": "Scala",
+          "count": 78
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 362
+        },
+        {
+          "name": "SQL",
+          "count": 310
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 190
+        },
+        {
+          "name": "Rust",
+          "count": 182
+        },
+        {
+          "name": "Go",
+          "count": 130
+        },
+        {
+          "name": "JavaScript",
+          "count": 109
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 106
+        },
+        {
+          "name": "TypeScript",
+          "count": 91
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 337
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 215
+        },
+        {
+          "name": "MySQL",
+          "count": 176
+        },
+        {
+          "name": "SQLite",
+          "count": 160
+        },
+        {
+          "name": "BigQuery",
+          "count": 136
+        },
+        {
+          "name": "Databricks SQL",
+          "count": 126
+        },
+        {
+          "name": "Snowflake",
+          "count": 122
+        },
+        {
+          "name": "MongoDB",
+          "count": 106
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "FastAPI",
+          "count": 135
+        },
+        {
+          "name": "Flask",
+          "count": 115
+        },
+        {
+          "name": "Node.js",
+          "count": 96
+        },
+        {
+          "name": "React",
+          "count": 92
+        },
+        {
+          "name": "Django",
+          "count": 72
+        },
+        {
+          "name": "Spring Boot",
+          "count": 40
+        },
+        {
+          "name": "jQuery",
+          "count": 40
+        },
+        {
+          "name": "Next.js",
+          "count": 39
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 347
+        },
+        {
+          "name": "Pip",
+          "count": 310
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 272
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 177
+        },
+        {
+          "name": "Terraform",
+          "count": 163
+        },
+        {
+          "name": "Kubernetes",
+          "count": 161
+        },
+        {
+          "name": "Google Cloud",
+          "count": 158
+        },
+        {
+          "name": "npm",
+          "count": 139
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 384
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 319
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 308
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 263
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 258
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 224
+        }
+      ],
+      "salary": {
+        "median_usd": 80412,
+        "p25_usd": 45844,
+        "p75_usd": 120328,
+        "sample_size": 487
+      },
+      "experience": {
+        "median_years": 12.0,
+        "p25_years": 8.0,
+        "p75_years": 20.0
+      },
+      "education": {
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 319,
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 294,
+        "Some college/university study without earning a degree": 56,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 47,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 19
+      },
+      "employment": {
+        "Employed": 634,
+        "Independent contractor, freelancer, or self-employed": 80,
+        "Not employed": 27,
+        "Student": 20
+      }
+    },
+    "Full-Stack Developer": {
+      "sample_count": 12351,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "count": 7939
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 7526
+        },
+        {
+          "name": "SQL",
+          "count": 6599
+        },
+        {
+          "name": "TypeScript",
+          "count": 5860
+        },
+        {
+          "name": "Python",
+          "count": 4416
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 4184
+        },
+        {
+          "name": "C#",
+          "count": 3259
+        },
+        {
+          "name": "Java",
+          "count": 2706
+        },
+        {
+          "name": "PHP",
+          "count": 2525
+        },
+        {
+          "name": "PowerShell",
+          "count": 2312
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "HTML/CSS",
+          "count": 4361
+        },
+        {
+          "name": "TypeScript",
+          "count": 4288
+        },
+        {
+          "name": "JavaScript",
+          "count": 4121
+        },
+        {
+          "name": "SQL",
+          "count": 3965
+        },
+        {
+          "name": "Python",
+          "count": 3040
+        },
+        {
+          "name": "Rust",
+          "count": 2431
+        },
+        {
+          "name": "Go",
+          "count": 2329
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 2293
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 4948
+        },
+        {
+          "name": "MySQL",
+          "count": 3790
+        },
+        {
+          "name": "SQLite",
+          "count": 3140
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 3044
+        },
+        {
+          "name": "Redis",
+          "count": 2603
+        },
+        {
+          "name": "MariaDB",
+          "count": 2227
+        },
+        {
+          "name": "MongoDB",
+          "count": 2222
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 1333
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 4812
+        },
+        {
+          "name": "React",
+          "count": 4557
+        },
+        {
+          "name": "jQuery",
+          "count": 2612
+        },
+        {
+          "name": "Next.js",
+          "count": 2191
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 2136
+        },
+        {
+          "name": "Express",
+          "count": 2112
+        },
+        {
+          "name": "Angular",
+          "count": 1997
+        },
+        {
+          "name": "Vue.js",
+          "count": 1880
+        }
+      ],
+      "platforms": [
+        {
+          "name": "npm",
+          "count": 5583
+        },
+        {
+          "name": "Docker",
+          "count": 5582
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 3412
+        },
+        {
+          "name": "Vite",
+          "count": 2993
+        },
+        {
+          "name": "Pip",
+          "count": 2643
+        },
+        {
+          "name": "Webpack",
+          "count": 2266
+        },
+        {
+          "name": "Yarn",
+          "count": 2233
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 2186
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 6544
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 5537
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 4885
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 4864
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 4221
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 3416
+        }
+      ],
+      "salary": {
+        "median_usd": 70794,
+        "p25_usd": 36000,
+        "p75_usd": 115000,
+        "sample_size": 7421
+      },
+      "experience": {
+        "median_years": 14.0,
+        "p25_years": 8.0,
+        "p75_years": 22.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 6008,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 2818,
+        "Some college/university study without earning a degree": 1660,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 794,
+        "Associate degree (A.A., A.S., etc.)": 484
+      },
+      "employment": {
+        "Employed": 9399,
+        "Independent contractor, freelancer, or self-employed": 2067,
+        "Not employed": 410,
+        "Student": 379
+      }
+    },
+    "Back-End Developer": {
+      "sample_count": 6453,
+      "languages": [
+        {
+          "name": "SQL",
+          "count": 2998
+        },
+        {
+          "name": "JavaScript",
+          "count": 2659
+        },
+        {
+          "name": "Python",
+          "count": 2553
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 2381
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 2190
+        },
+        {
+          "name": "TypeScript",
+          "count": 1736
+        },
+        {
+          "name": "Java",
+          "count": 1717
+        },
+        {
+          "name": "C#",
+          "count": 1153
+        },
+        {
+          "name": "Go",
+          "count": 1143
+        },
+        {
+          "name": "PowerShell",
+          "count": 871
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "SQL",
+          "count": 1820
+        },
+        {
+          "name": "Python",
+          "count": 1659
+        },
+        {
+          "name": "Rust",
+          "count": 1428
+        },
+        {
+          "name": "Go",
+          "count": 1409
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 1235
+        },
+        {
+          "name": "TypeScript",
+          "count": 1163
+        },
+        {
+          "name": "JavaScript",
+          "count": 1152
+        },
+        {
+          "name": "Java",
+          "count": 1014
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 2785
+        },
+        {
+          "name": "Redis",
+          "count": 1795
+        },
+        {
+          "name": "MySQL",
+          "count": 1661
+        },
+        {
+          "name": "SQLite",
+          "count": 1352
+        },
+        {
+          "name": "MongoDB",
+          "count": 1044
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 1035
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 1005
+        },
+        {
+          "name": "MariaDB",
+          "count": 811
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 1265
+        },
+        {
+          "name": "React",
+          "count": 1242
+        },
+        {
+          "name": "Spring Boot",
+          "count": 944
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 691
+        },
+        {
+          "name": "FastAPI",
+          "count": 628
+        },
+        {
+          "name": "jQuery",
+          "count": 627
+        },
+        {
+          "name": "Express",
+          "count": 508
+        },
+        {
+          "name": "Flask",
+          "count": 506
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 3313
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 2136
+        },
+        {
+          "name": "npm",
+          "count": 1994
+        },
+        {
+          "name": "Kubernetes",
+          "count": 1781
+        },
+        {
+          "name": "Pip",
+          "count": 1544
+        },
+        {
+          "name": "Homebrew",
+          "count": 1150
+        },
+        {
+          "name": "Make",
+          "count": 1000
+        },
+        {
+          "name": "Terraform",
+          "count": 956
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 3120
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 2575
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 2170
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 2144
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 1956
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 1751
+        }
+      ],
+      "salary": {
+        "median_usd": 78390,
+        "p25_usd": 41862,
+        "p75_usd": 125822,
+        "sample_size": 3940
+      },
+      "experience": {
+        "median_years": 15.0,
+        "p25_years": 9.0,
+        "p75_years": 22.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 3065,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 1935,
+        "Some college/university study without earning a degree": 699,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 295,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 202
+      },
+      "employment": {
+        "Employed": 5260,
+        "Independent contractor, freelancer, or self-employed": 765,
+        "Not employed": 234,
+        "Student": 153
+      }
+    },
+    "Front-End Developer": {
+      "sample_count": 1974,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "count": 1298
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 1201
+        },
+        {
+          "name": "TypeScript",
+          "count": 1084
+        },
+        {
+          "name": "SQL",
+          "count": 421
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 417
+        },
+        {
+          "name": "Python",
+          "count": 393
+        },
+        {
+          "name": "PHP",
+          "count": 259
+        },
+        {
+          "name": "Java",
+          "count": 207
+        },
+        {
+          "name": "C#",
+          "count": 170
+        },
+        {
+          "name": "PowerShell",
+          "count": 162
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "TypeScript",
+          "count": 801
+        },
+        {
+          "name": "JavaScript",
+          "count": 772
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 764
+        },
+        {
+          "name": "Python",
+          "count": 387
+        },
+        {
+          "name": "SQL",
+          "count": 297
+        },
+        {
+          "name": "Go",
+          "count": 259
+        },
+        {
+          "name": "Rust",
+          "count": 239
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 218
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 386
+        },
+        {
+          "name": "MySQL",
+          "count": 365
+        },
+        {
+          "name": "MongoDB",
+          "count": 274
+        },
+        {
+          "name": "SQLite",
+          "count": 225
+        },
+        {
+          "name": "MariaDB",
+          "count": 147
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 123
+        },
+        {
+          "name": "Redis",
+          "count": 121
+        },
+        {
+          "name": "Supabase",
+          "count": 114
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "React",
+          "count": 937
+        },
+        {
+          "name": "Node.js",
+          "count": 818
+        },
+        {
+          "name": "Next.js",
+          "count": 517
+        },
+        {
+          "name": "Express",
+          "count": 359
+        },
+        {
+          "name": "Angular",
+          "count": 331
+        },
+        {
+          "name": "Vue.js",
+          "count": 305
+        },
+        {
+          "name": "jQuery",
+          "count": 277
+        },
+        {
+          "name": "WordPress",
+          "count": 198
+        }
+      ],
+      "platforms": [
+        {
+          "name": "npm",
+          "count": 746
+        },
+        {
+          "name": "Docker",
+          "count": 557
+        },
+        {
+          "name": "Vite",
+          "count": 551
+        },
+        {
+          "name": "Webpack",
+          "count": 430
+        },
+        {
+          "name": "Yarn",
+          "count": 374
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 357
+        },
+        {
+          "name": "pnpm",
+          "count": 283
+        },
+        {
+          "name": "Homebrew",
+          "count": 268
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 913
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 833
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 756
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 648
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 626
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 575
+        }
+      ],
+      "salary": {
+        "median_usd": 61362,
+        "p25_usd": 25958,
+        "p75_usd": 98612,
+        "sample_size": 1136
+      },
+      "experience": {
+        "median_years": 10.0,
+        "p25_years": 6.0,
+        "p75_years": 17.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 958,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 451,
+        "Some college/university study without earning a degree": 274,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 130,
+        "Associate degree (A.A., A.S., etc.)": 82
+      },
+      "employment": {
+        "Employed": 1484,
+        "Independent contractor, freelancer, or self-employed": 260,
+        "Not employed": 124,
+        "Student": 86
+      }
+    },
+    "Mobile Developer": {
+      "sample_count": 1391,
+      "languages": [
+        {
+          "name": "Kotlin",
+          "count": 527
+        },
+        {
+          "name": "Swift",
+          "count": 489
+        },
+        {
+          "name": "JavaScript",
+          "count": 417
+        },
+        {
+          "name": "Java",
+          "count": 382
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 335
+        },
+        {
+          "name": "Python",
+          "count": 321
+        },
+        {
+          "name": "SQL",
+          "count": 305
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 297
+        },
+        {
+          "name": "Dart",
+          "count": 285
+        },
+        {
+          "name": "TypeScript",
+          "count": 268
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Kotlin",
+          "count": 421
+        },
+        {
+          "name": "Swift",
+          "count": 377
+        },
+        {
+          "name": "Python",
+          "count": 238
+        },
+        {
+          "name": "Dart",
+          "count": 212
+        },
+        {
+          "name": "SQL",
+          "count": 181
+        },
+        {
+          "name": "JavaScript",
+          "count": 179
+        },
+        {
+          "name": "TypeScript",
+          "count": 176
+        },
+        {
+          "name": "Rust",
+          "count": 158
+        }
+      ],
+      "databases": [
+        {
+          "name": "SQLite",
+          "count": 352
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 193
+        },
+        {
+          "name": "MySQL",
+          "count": 186
+        },
+        {
+          "name": "Cloud Firestore",
+          "count": 134
+        },
+        {
+          "name": "Firebase Realtime Database",
+          "count": 132
+        },
+        {
+          "name": "MongoDB",
+          "count": 125
+        },
+        {
+          "name": "Supabase",
+          "count": 71
+        },
+        {
+          "name": "MariaDB",
+          "count": 66
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "React",
+          "count": 211
+        },
+        {
+          "name": "Node.js",
+          "count": 184
+        },
+        {
+          "name": "Next.js",
+          "count": 95
+        },
+        {
+          "name": "Express",
+          "count": 85
+        },
+        {
+          "name": "jQuery",
+          "count": 58
+        },
+        {
+          "name": "WordPress",
+          "count": 58
+        },
+        {
+          "name": "Angular",
+          "count": 55
+        },
+        {
+          "name": "Vue.js",
+          "count": 49
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Firebase",
+          "count": 361
+        },
+        {
+          "name": "Homebrew",
+          "count": 284
+        },
+        {
+          "name": "Gradle",
+          "count": 272
+        },
+        {
+          "name": "Docker",
+          "count": 259
+        },
+        {
+          "name": "npm",
+          "count": 250
+        },
+        {
+          "name": "Google Cloud",
+          "count": 209
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 177
+        },
+        {
+          "name": "Pip",
+          "count": 140
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 651
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 551
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 550
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 518
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 467
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 381
+        }
+      ],
+      "salary": {
+        "median_usd": 69609,
+        "p25_usd": 26154,
+        "p75_usd": 115868,
+        "sample_size": 775
+      },
+      "experience": {
+        "median_years": 12.0,
+        "p25_years": 7.0,
+        "p75_years": 20.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 721,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 369,
+        "Some college/university study without earning a degree": 144,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 74,
+        "Associate degree (A.A., A.S., etc.)": 37
+      },
+      "employment": {
+        "Employed": 1020,
+        "Independent contractor, freelancer, or self-employed": 255,
+        "Not employed": 53,
+        "Student": 48
+      }
+    },
+    "Embedded / IoT Developer": {
+      "sample_count": 1274,
+      "languages": [
+        {
+          "name": "C",
+          "count": 774
+        },
+        {
+          "name": "Python",
+          "count": 758
+        },
+        {
+          "name": "C++",
+          "count": 707
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 648
+        },
+        {
+          "name": "JavaScript",
+          "count": 324
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 317
+        },
+        {
+          "name": "Assembly",
+          "count": 279
+        },
+        {
+          "name": "Rust",
+          "count": 230
+        },
+        {
+          "name": "SQL",
+          "count": 228
+        },
+        {
+          "name": "C#",
+          "count": 191
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "C++",
+          "count": 455
+        },
+        {
+          "name": "Rust",
+          "count": 453
+        },
+        {
+          "name": "Python",
+          "count": 449
+        },
+        {
+          "name": "C",
+          "count": 432
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 332
+        },
+        {
+          "name": "Assembly",
+          "count": 194
+        },
+        {
+          "name": "Go",
+          "count": 140
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 127
+        }
+      ],
+      "databases": [
+        {
+          "name": "SQLite",
+          "count": 189
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 162
+        },
+        {
+          "name": "MySQL",
+          "count": 121
+        },
+        {
+          "name": "MariaDB",
+          "count": 85
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 57
+        },
+        {
+          "name": "MongoDB",
+          "count": 54
+        },
+        {
+          "name": "Redis",
+          "count": 40
+        },
+        {
+          "name": "InfluxDB",
+          "count": 39
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 122
+        },
+        {
+          "name": "React",
+          "count": 89
+        },
+        {
+          "name": "Flask",
+          "count": 71
+        },
+        {
+          "name": "Vue.js",
+          "count": 53
+        },
+        {
+          "name": "jQuery",
+          "count": 40
+        },
+        {
+          "name": "Django",
+          "count": 38
+        },
+        {
+          "name": "FastAPI",
+          "count": 37
+        },
+        {
+          "name": "Angular",
+          "count": 35
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 399
+        },
+        {
+          "name": "Pip",
+          "count": 328
+        },
+        {
+          "name": "Make",
+          "count": 324
+        },
+        {
+          "name": "Ninja",
+          "count": 196
+        },
+        {
+          "name": "APT",
+          "count": 187
+        },
+        {
+          "name": "npm",
+          "count": 167
+        },
+        {
+          "name": "Cargo",
+          "count": 141
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 131
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 647
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 593
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 520
+        },
+        {
+          "name": "Books / Physical media",
+          "count": 357
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 357
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 320
+        }
+      ],
+      "salary": {
+        "median_usd": 78926,
+        "p25_usd": 47330,
+        "p75_usd": 120000,
+        "sample_size": 772
+      },
+      "experience": {
+        "median_years": 15.0,
+        "p25_years": 10.0,
+        "p75_years": 27.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 521,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 490,
+        "Some college/university study without earning a degree": 119,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 64,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 52
+      },
+      "employment": {
+        "Employed": 1068,
+        "Independent contractor, freelancer, or self-employed": 127,
+        "Student": 35,
+        "Not employed": 27
+      }
+    },
+    "DevOps Engineer": {
+      "sample_count": 1053,
+      "languages": [
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 633
+        },
+        {
+          "name": "Python",
+          "count": 623
+        },
+        {
+          "name": "SQL",
+          "count": 484
+        },
+        {
+          "name": "JavaScript",
+          "count": 430
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 414
+        },
+        {
+          "name": "Go",
+          "count": 332
+        },
+        {
+          "name": "TypeScript",
+          "count": 298
+        },
+        {
+          "name": "PowerShell",
+          "count": 258
+        },
+        {
+          "name": "Java",
+          "count": 239
+        },
+        {
+          "name": "C#",
+          "count": 173
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 386
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 379
+        },
+        {
+          "name": "Go",
+          "count": 353
+        },
+        {
+          "name": "Rust",
+          "count": 268
+        },
+        {
+          "name": "SQL",
+          "count": 249
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 199
+        },
+        {
+          "name": "JavaScript",
+          "count": 198
+        },
+        {
+          "name": "TypeScript",
+          "count": 187
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 502
+        },
+        {
+          "name": "Redis",
+          "count": 313
+        },
+        {
+          "name": "MySQL",
+          "count": 305
+        },
+        {
+          "name": "SQLite",
+          "count": 272
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 239
+        },
+        {
+          "name": "MariaDB",
+          "count": 225
+        },
+        {
+          "name": "MongoDB",
+          "count": 193
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 174
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 252
+        },
+        {
+          "name": "React",
+          "count": 180
+        },
+        {
+          "name": "FastAPI",
+          "count": 126
+        },
+        {
+          "name": "Flask",
+          "count": 124
+        },
+        {
+          "name": "Django",
+          "count": 101
+        },
+        {
+          "name": "jQuery",
+          "count": 98
+        },
+        {
+          "name": "Next.js",
+          "count": 97
+        },
+        {
+          "name": "Spring Boot",
+          "count": 96
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 698
+        },
+        {
+          "name": "Kubernetes",
+          "count": 491
+        },
+        {
+          "name": "Pip",
+          "count": 463
+        },
+        {
+          "name": "Terraform",
+          "count": 445
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 443
+        },
+        {
+          "name": "npm",
+          "count": 434
+        },
+        {
+          "name": "Ansible",
+          "count": 391
+        },
+        {
+          "name": "Prometheus",
+          "count": 322
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 608
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 459
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 418
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 347
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 325
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 269
+        }
+      ],
+      "salary": {
+        "median_usd": 87011,
+        "p25_usd": 52207,
+        "p75_usd": 133417,
+        "sample_size": 697
+      },
+      "experience": {
+        "median_years": 15.0,
+        "p25_years": 9.0,
+        "p75_years": 25.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 471,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 303,
+        "Some college/university study without earning a degree": 146,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 48,
+        "Associate degree (A.A., A.S., etc.)": 43
+      },
+      "employment": {
+        "Employed": 890,
+        "Independent contractor, freelancer, or self-employed": 112,
+        "Not employed": 21,
+        "Student": 21
+      }
+    },
+    "Cloud Engineer": {
+      "sample_count": 441,
+      "languages": [
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 230
+        },
+        {
+          "name": "Python",
+          "count": 222
+        },
+        {
+          "name": "JavaScript",
+          "count": 157
+        },
+        {
+          "name": "Go",
+          "count": 155
+        },
+        {
+          "name": "SQL",
+          "count": 150
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 145
+        },
+        {
+          "name": "TypeScript",
+          "count": 117
+        },
+        {
+          "name": "Java",
+          "count": 89
+        },
+        {
+          "name": "PowerShell",
+          "count": 83
+        },
+        {
+          "name": "Rust",
+          "count": 66
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 144
+        },
+        {
+          "name": "Go",
+          "count": 129
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 122
+        },
+        {
+          "name": "Rust",
+          "count": 108
+        },
+        {
+          "name": "TypeScript",
+          "count": 75
+        },
+        {
+          "name": "SQL",
+          "count": 75
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 65
+        },
+        {
+          "name": "JavaScript",
+          "count": 57
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 189
+        },
+        {
+          "name": "Redis",
+          "count": 114
+        },
+        {
+          "name": "MySQL",
+          "count": 100
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 84
+        },
+        {
+          "name": "SQLite",
+          "count": 82
+        },
+        {
+          "name": "Dynamodb",
+          "count": 74
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 64
+        },
+        {
+          "name": "MongoDB",
+          "count": 64
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 80
+        },
+        {
+          "name": "React",
+          "count": 66
+        },
+        {
+          "name": "Flask",
+          "count": 51
+        },
+        {
+          "name": "Angular",
+          "count": 40
+        },
+        {
+          "name": "FastAPI",
+          "count": 38
+        },
+        {
+          "name": "Next.js",
+          "count": 36
+        },
+        {
+          "name": "Django",
+          "count": 35
+        },
+        {
+          "name": "Express",
+          "count": 35
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 250
+        },
+        {
+          "name": "Kubernetes",
+          "count": 198
+        },
+        {
+          "name": "Terraform",
+          "count": 188
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 181
+        },
+        {
+          "name": "Pip",
+          "count": 166
+        },
+        {
+          "name": "npm",
+          "count": 141
+        },
+        {
+          "name": "Make",
+          "count": 111
+        },
+        {
+          "name": "Google Cloud",
+          "count": 109
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 243
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 202
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 164
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 131
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 131
+        },
+        {
+          "name": "Colleague or on-the-job training",
+          "count": 110
+        }
+      ],
+      "salary": {
+        "median_usd": 103112,
+        "p25_usd": 60791,
+        "p75_usd": 163370,
+        "sample_size": 266
+      },
+      "experience": {
+        "median_years": 15.0,
+        "p25_years": 9.0,
+        "p75_years": 20.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 187,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 122,
+        "Some college/university study without earning a degree": 56,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 25,
+        "Associate degree (A.A., A.S., etc.)": 23
+      },
+      "employment": {
+        "Employed": 359,
+        "Independent contractor, freelancer, or self-employed": 45,
+        "Not employed": 17,
+        "Student": 10
+      }
+    },
+    "Cybersecurity Engineer": {
+      "sample_count": 370,
+      "languages": [
+        {
+          "name": "Python",
+          "count": 232
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 193
+        },
+        {
+          "name": "JavaScript",
+          "count": 170
+        },
+        {
+          "name": "SQL",
+          "count": 150
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 148
+        },
+        {
+          "name": "PowerShell",
+          "count": 131
+        },
+        {
+          "name": "C",
+          "count": 125
+        },
+        {
+          "name": "Java",
+          "count": 99
+        },
+        {
+          "name": "C++",
+          "count": 95
+        },
+        {
+          "name": "Go",
+          "count": 93
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 139
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 122
+        },
+        {
+          "name": "Rust",
+          "count": 121
+        },
+        {
+          "name": "Go",
+          "count": 93
+        },
+        {
+          "name": "C",
+          "count": 83
+        },
+        {
+          "name": "JavaScript",
+          "count": 81
+        },
+        {
+          "name": "SQL",
+          "count": 73
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 69
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 133
+        },
+        {
+          "name": "SQLite",
+          "count": 125
+        },
+        {
+          "name": "MySQL",
+          "count": 115
+        },
+        {
+          "name": "MariaDB",
+          "count": 90
+        },
+        {
+          "name": "MongoDB",
+          "count": 81
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 73
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 72
+        },
+        {
+          "name": "Redis",
+          "count": 64
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 99
+        },
+        {
+          "name": "Flask",
+          "count": 72
+        },
+        {
+          "name": "React",
+          "count": 69
+        },
+        {
+          "name": "Django",
+          "count": 63
+        },
+        {
+          "name": "jQuery",
+          "count": 53
+        },
+        {
+          "name": "FastAPI",
+          "count": 48
+        },
+        {
+          "name": "WordPress",
+          "count": 44
+        },
+        {
+          "name": "Next.js",
+          "count": 43
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 186
+        },
+        {
+          "name": "Pip",
+          "count": 148
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 128
+        },
+        {
+          "name": "npm",
+          "count": 110
+        },
+        {
+          "name": "Make",
+          "count": 93
+        },
+        {
+          "name": "APT",
+          "count": 81
+        },
+        {
+          "name": "Kubernetes",
+          "count": 78
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 77
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 187
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 162
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 157
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 132
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 122
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 94
+        }
+      ],
+      "salary": {
+        "median_usd": 98612,
+        "p25_usd": 46868,
+        "p75_usd": 151386,
+        "sample_size": 191
+      },
+      "experience": {
+        "median_years": 12.0,
+        "p25_years": 7.0,
+        "p75_years": 20.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 152,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 107,
+        "Some college/university study without earning a degree": 43,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 29,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 14
+      },
+      "employment": {
+        "Employed": 271,
+        "Independent contractor, freelancer, or self-employed": 53,
+        "Student": 23,
+        "Not employed": 14
+      }
+    },
+    "Data / Business Analyst": {
+      "sample_count": 351,
+      "languages": [
+        {
+          "name": "SQL",
+          "count": 178
+        },
+        {
+          "name": "Python",
+          "count": 176
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 126
+        },
+        {
+          "name": "JavaScript",
+          "count": 105
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 84
+        },
+        {
+          "name": "R",
+          "count": 65
+        },
+        {
+          "name": "PowerShell",
+          "count": 63
+        },
+        {
+          "name": "VBA",
+          "count": 55
+        },
+        {
+          "name": "C#",
+          "count": 45
+        },
+        {
+          "name": "C",
+          "count": 38
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 136
+        },
+        {
+          "name": "SQL",
+          "count": 123
+        },
+        {
+          "name": "JavaScript",
+          "count": 73
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 67
+        },
+        {
+          "name": "R",
+          "count": 55
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 55
+        },
+        {
+          "name": "PowerShell",
+          "count": 43
+        },
+        {
+          "name": "Rust",
+          "count": 36
+        }
+      ],
+      "databases": [
+        {
+          "name": "Microsoft SQL Server",
+          "count": 115
+        },
+        {
+          "name": "MySQL",
+          "count": 82
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 79
+        },
+        {
+          "name": "SQLite",
+          "count": 68
+        },
+        {
+          "name": "Oracle",
+          "count": 42
+        },
+        {
+          "name": "Microsoft Access",
+          "count": 38
+        },
+        {
+          "name": "BigQuery",
+          "count": 38
+        },
+        {
+          "name": "MariaDB",
+          "count": 27
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 43
+        },
+        {
+          "name": "jQuery",
+          "count": 31
+        },
+        {
+          "name": "React",
+          "count": 27
+        },
+        {
+          "name": "WordPress",
+          "count": 23
+        },
+        {
+          "name": "Flask",
+          "count": 23
+        },
+        {
+          "name": "Django",
+          "count": 21
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 19
+        },
+        {
+          "name": "ASP.NET",
+          "count": 19
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 51
+        },
+        {
+          "name": "Pip",
+          "count": 49
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 49
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 48
+        },
+        {
+          "name": "Google Cloud",
+          "count": 46
+        },
+        {
+          "name": "npm",
+          "count": 31
+        },
+        {
+          "name": "Cloudflare",
+          "count": 25
+        },
+        {
+          "name": "APT",
+          "count": 17
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 155
+        },
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 150
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 148
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 132
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 120
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 98
+        }
+      ],
+      "salary": {
+        "median_usd": 55000,
+        "p25_usd": 15688,
+        "p75_usd": 90916,
+        "sample_size": 187
+      },
+      "experience": {
+        "median_years": 10.0,
+        "p25_years": 5.0,
+        "p75_years": 18.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 146,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 110,
+        "Some college/university study without earning a degree": 30,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 21,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 14
+      },
+      "employment": {
+        "Employed": 249,
+        "Independent contractor, freelancer, or self-employed": 53,
+        "Not employed": 22,
+        "Student": 16
+      }
+    },
+    "Database Administrator": {
+      "sample_count": 175,
+      "languages": [
+        {
+          "name": "SQL",
+          "count": 109
+        },
+        {
+          "name": "Python",
+          "count": 69
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 63
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 56
+        },
+        {
+          "name": "JavaScript",
+          "count": 56
+        },
+        {
+          "name": "PowerShell",
+          "count": 46
+        },
+        {
+          "name": "C#",
+          "count": 38
+        },
+        {
+          "name": "Java",
+          "count": 27
+        },
+        {
+          "name": "PHP",
+          "count": 26
+        },
+        {
+          "name": "C",
+          "count": 20
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "SQL",
+          "count": 70
+        },
+        {
+          "name": "Python",
+          "count": 55
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 35
+        },
+        {
+          "name": "PowerShell",
+          "count": 30
+        },
+        {
+          "name": "JavaScript",
+          "count": 30
+        },
+        {
+          "name": "Rust",
+          "count": 22
+        },
+        {
+          "name": "C#",
+          "count": 22
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 22
+        }
+      ],
+      "databases": [
+        {
+          "name": "Microsoft SQL Server",
+          "count": 71
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 54
+        },
+        {
+          "name": "MySQL",
+          "count": 49
+        },
+        {
+          "name": "Oracle",
+          "count": 35
+        },
+        {
+          "name": "MariaDB",
+          "count": 30
+        },
+        {
+          "name": "SQLite",
+          "count": 26
+        },
+        {
+          "name": "Microsoft Access",
+          "count": 19
+        },
+        {
+          "name": "MongoDB",
+          "count": 14
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 18
+        },
+        {
+          "name": "jQuery",
+          "count": 16
+        },
+        {
+          "name": "WordPress",
+          "count": 15
+        },
+        {
+          "name": "React",
+          "count": 14
+        },
+        {
+          "name": "ASP.NET",
+          "count": 11
+        },
+        {
+          "name": "Django",
+          "count": 9
+        },
+        {
+          "name": "Angular",
+          "count": 9
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 8
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 37
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 35
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 33
+        },
+        {
+          "name": "Pip",
+          "count": 30
+        },
+        {
+          "name": "Google Cloud",
+          "count": 20
+        },
+        {
+          "name": "Kubernetes",
+          "count": 18
+        },
+        {
+          "name": "Ansible",
+          "count": 18
+        },
+        {
+          "name": "npm",
+          "count": 16
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 70
+        },
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 67
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 63
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 51
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 46
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 45
+        }
+      ],
+      "salary": {
+        "median_usd": 85769,
+        "p25_usd": 47863,
+        "p75_usd": 141296,
+        "sample_size": 99
+      },
+      "experience": {
+        "median_years": 17.0,
+        "p25_years": 10.0,
+        "p75_years": 30.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 66,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 49,
+        "Some college/university study without earning a degree": 28,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 14,
+        "Associate degree (A.A., A.S., etc.)": 8
+      },
+      "employment": {
+        "Employed": 129,
+        "Independent contractor, freelancer, or self-employed": 28,
+        "Not employed": 6,
+        "Retired": 5
+      }
+    },
+    "Game Developer": {
+      "sample_count": 451,
+      "languages": [
+        {
+          "name": "C++",
+          "count": 215
+        },
+        {
+          "name": "C#",
+          "count": 183
+        },
+        {
+          "name": "Python",
+          "count": 162
+        },
+        {
+          "name": "JavaScript",
+          "count": 153
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 142
+        },
+        {
+          "name": "C",
+          "count": 131
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 119
+        },
+        {
+          "name": "SQL",
+          "count": 81
+        },
+        {
+          "name": "Lua",
+          "count": 80
+        },
+        {
+          "name": "TypeScript",
+          "count": 78
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "C++",
+          "count": 147
+        },
+        {
+          "name": "C#",
+          "count": 114
+        },
+        {
+          "name": "Python",
+          "count": 94
+        },
+        {
+          "name": "Rust",
+          "count": 89
+        },
+        {
+          "name": "C",
+          "count": 83
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 68
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 59
+        },
+        {
+          "name": "TypeScript",
+          "count": 59
+        }
+      ],
+      "databases": [
+        {
+          "name": "SQLite",
+          "count": 64
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 55
+        },
+        {
+          "name": "MySQL",
+          "count": 50
+        },
+        {
+          "name": "MongoDB",
+          "count": 36
+        },
+        {
+          "name": "MariaDB",
+          "count": 26
+        },
+        {
+          "name": "Redis",
+          "count": 24
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 19
+        },
+        {
+          "name": "Cloud Firestore",
+          "count": 10
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 65
+        },
+        {
+          "name": "React",
+          "count": 38
+        },
+        {
+          "name": "Vue.js",
+          "count": 31
+        },
+        {
+          "name": "Svelte",
+          "count": 25
+        },
+        {
+          "name": "jQuery",
+          "count": 23
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 20
+        },
+        {
+          "name": "Express",
+          "count": 18
+        },
+        {
+          "name": "WordPress",
+          "count": 16
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 82
+        },
+        {
+          "name": "npm",
+          "count": 66
+        },
+        {
+          "name": "Pip",
+          "count": 54
+        },
+        {
+          "name": "NuGet",
+          "count": 46
+        },
+        {
+          "name": "Make",
+          "count": 45
+        },
+        {
+          "name": "MSBuild",
+          "count": 41
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 38
+        },
+        {
+          "name": "Google Cloud",
+          "count": 36
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 233
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 217
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 167
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 154
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 115
+        },
+        {
+          "name": "Books / Physical media",
+          "count": 108
+        }
+      ],
+      "salary": {
+        "median_usd": 70501,
+        "p25_usd": 34609,
+        "p75_usd": 100000,
+        "sample_size": 198
+      },
+      "experience": {
+        "median_years": 15.0,
+        "p25_years": 8.0,
+        "p75_years": 22.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 178,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 116,
+        "Some college/university study without earning a degree": 66,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 44,
+        "Associate degree (A.A., A.S., etc.)": 17
+      },
+      "employment": {
+        "Employed": 234,
+        "Independent contractor, freelancer, or self-employed": 119,
+        "Not employed": 48,
+        "Student": 32
+      }
+    },
+    "Desktop / Enterprise Developer": {
+      "sample_count": 1919,
+      "languages": [
+        {
+          "name": "SQL",
+          "count": 842
+        },
+        {
+          "name": "JavaScript",
+          "count": 746
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 729
+        },
+        {
+          "name": "Python",
+          "count": 723
+        },
+        {
+          "name": "C#",
+          "count": 698
+        },
+        {
+          "name": "C++",
+          "count": 643
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 614
+        },
+        {
+          "name": "PowerShell",
+          "count": 478
+        },
+        {
+          "name": "C",
+          "count": 451
+        },
+        {
+          "name": "Java",
+          "count": 390
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "SQL",
+          "count": 513
+        },
+        {
+          "name": "C#",
+          "count": 504
+        },
+        {
+          "name": "Python",
+          "count": 488
+        },
+        {
+          "name": "C++",
+          "count": 430
+        },
+        {
+          "name": "Rust",
+          "count": 420
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 388
+        },
+        {
+          "name": "JavaScript",
+          "count": 373
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 345
+        }
+      ],
+      "databases": [
+        {
+          "name": "Microsoft SQL Server",
+          "count": 561
+        },
+        {
+          "name": "SQLite",
+          "count": 478
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 456
+        },
+        {
+          "name": "MySQL",
+          "count": 352
+        },
+        {
+          "name": "MariaDB",
+          "count": 194
+        },
+        {
+          "name": "Oracle",
+          "count": 184
+        },
+        {
+          "name": "MongoDB",
+          "count": 124
+        },
+        {
+          "name": "Redis",
+          "count": 107
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 316
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 277
+        },
+        {
+          "name": "React",
+          "count": 247
+        },
+        {
+          "name": "ASP.NET",
+          "count": 212
+        },
+        {
+          "name": "jQuery",
+          "count": 206
+        },
+        {
+          "name": "Angular",
+          "count": 148
+        },
+        {
+          "name": "Blazor",
+          "count": 134
+        },
+        {
+          "name": "Spring Boot",
+          "count": 124
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 523
+        },
+        {
+          "name": "npm",
+          "count": 369
+        },
+        {
+          "name": "NuGet",
+          "count": 342
+        },
+        {
+          "name": "Pip",
+          "count": 301
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 300
+        },
+        {
+          "name": "MSBuild",
+          "count": 298
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 242
+        },
+        {
+          "name": "Make",
+          "count": 213
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 866
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 805
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 730
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 652
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 494
+        },
+        {
+          "name": "Books / Physical media",
+          "count": 470
+        }
+      ],
+      "salary": {
+        "median_usd": 72815,
+        "p25_usd": 42653,
+        "p75_usd": 110000,
+        "sample_size": 1125
+      },
+      "experience": {
+        "median_years": 20.0,
+        "p25_years": 10.0,
+        "p75_years": 30.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 790,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 546,
+        "Some college/university study without earning a degree": 241,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 132,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 104
+      },
+      "employment": {
+        "Employed": 1505,
+        "Independent contractor, freelancer, or self-employed": 275,
+        "Not employed": 58,
+        "Student": 42
+      }
+    },
+    "QA / Test Engineer": {
+      "sample_count": 343,
+      "languages": [
+        {
+          "name": "Python",
+          "count": 162
+        },
+        {
+          "name": "JavaScript",
+          "count": 157
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 130
+        },
+        {
+          "name": "SQL",
+          "count": 122
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 120
+        },
+        {
+          "name": "TypeScript",
+          "count": 93
+        },
+        {
+          "name": "Java",
+          "count": 88
+        },
+        {
+          "name": "PowerShell",
+          "count": 69
+        },
+        {
+          "name": "C#",
+          "count": 58
+        },
+        {
+          "name": "C++",
+          "count": 48
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 117
+        },
+        {
+          "name": "JavaScript",
+          "count": 80
+        },
+        {
+          "name": "TypeScript",
+          "count": 72
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 71
+        },
+        {
+          "name": "SQL",
+          "count": 70
+        },
+        {
+          "name": "Java",
+          "count": 58
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 53
+        },
+        {
+          "name": "Rust",
+          "count": 50
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 86
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 73
+        },
+        {
+          "name": "MySQL",
+          "count": 72
+        },
+        {
+          "name": "SQLite",
+          "count": 49
+        },
+        {
+          "name": "MongoDB",
+          "count": 42
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 35
+        },
+        {
+          "name": "Redis",
+          "count": 33
+        },
+        {
+          "name": "Oracle",
+          "count": 30
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 76
+        },
+        {
+          "name": "React",
+          "count": 64
+        },
+        {
+          "name": "Angular",
+          "count": 30
+        },
+        {
+          "name": "jQuery",
+          "count": 27
+        },
+        {
+          "name": "Spring Boot",
+          "count": 27
+        },
+        {
+          "name": "ASP.NET",
+          "count": 25
+        },
+        {
+          "name": "Express",
+          "count": 24
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 24
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 131
+        },
+        {
+          "name": "npm",
+          "count": 90
+        },
+        {
+          "name": "Pip",
+          "count": 86
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 76
+        },
+        {
+          "name": "Kubernetes",
+          "count": 52
+        },
+        {
+          "name": "Maven (build tool)",
+          "count": 49
+        },
+        {
+          "name": "Homebrew",
+          "count": 47
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 40
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 161
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 129
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 125
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 120
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 113
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 112
+        }
+      ],
+      "salary": {
+        "median_usd": 57543,
+        "p25_usd": 28422,
+        "p75_usd": 94056,
+        "sample_size": 191
+      },
+      "experience": {
+        "median_years": 10.0,
+        "p25_years": 6.0,
+        "p75_years": 17.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 156,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 109,
+        "Some college/university study without earning a degree": 38,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 12,
+        "Associate degree (A.A., A.S., etc.)": 12
+      },
+      "employment": {
+        "Employed": 294,
+        "Independent contractor, freelancer, or self-employed": 25,
+        "Not employed": 17,
+        "Student": 4
+      }
+    },
+    "UX / UI Designer": {
+      "sample_count": 115,
+      "languages": [
+        {
+          "name": "HTML/CSS",
+          "count": 52
+        },
+        {
+          "name": "JavaScript",
+          "count": 52
+        },
+        {
+          "name": "TypeScript",
+          "count": 27
+        },
+        {
+          "name": "Python",
+          "count": 24
+        },
+        {
+          "name": "SQL",
+          "count": 22
+        },
+        {
+          "name": "PHP",
+          "count": 20
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 16
+        },
+        {
+          "name": "C#",
+          "count": 13
+        },
+        {
+          "name": "PowerShell",
+          "count": 12
+        },
+        {
+          "name": "Java",
+          "count": 11
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "HTML/CSS",
+          "count": 38
+        },
+        {
+          "name": "JavaScript",
+          "count": 36
+        },
+        {
+          "name": "TypeScript",
+          "count": 21
+        },
+        {
+          "name": "Python",
+          "count": 19
+        },
+        {
+          "name": "SQL",
+          "count": 14
+        },
+        {
+          "name": "PHP",
+          "count": 13
+        },
+        {
+          "name": "Rust",
+          "count": 13
+        },
+        {
+          "name": "Swift",
+          "count": 12
+        }
+      ],
+      "databases": [
+        {
+          "name": "MySQL",
+          "count": 20
+        },
+        {
+          "name": "PostgreSQL",
+          "count": 16
+        },
+        {
+          "name": "SQLite",
+          "count": 14
+        },
+        {
+          "name": "MariaDB",
+          "count": 11
+        },
+        {
+          "name": "MongoDB",
+          "count": 10
+        },
+        {
+          "name": "Supabase",
+          "count": 10
+        },
+        {
+          "name": "Firebase Realtime Database",
+          "count": 9
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 8
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 28
+        },
+        {
+          "name": "React",
+          "count": 28
+        },
+        {
+          "name": "WordPress",
+          "count": 23
+        },
+        {
+          "name": "jQuery",
+          "count": 21
+        },
+        {
+          "name": "Next.js",
+          "count": 19
+        },
+        {
+          "name": "Vue.js",
+          "count": 18
+        },
+        {
+          "name": "Angular",
+          "count": 12
+        },
+        {
+          "name": "ASP.NET",
+          "count": 10
+        }
+      ],
+      "platforms": [
+        {
+          "name": "npm",
+          "count": 25
+        },
+        {
+          "name": "Google Cloud",
+          "count": 17
+        },
+        {
+          "name": "Docker",
+          "count": 16
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 14
+        },
+        {
+          "name": "Cloudflare",
+          "count": 14
+        },
+        {
+          "name": "Homebrew",
+          "count": 14
+        },
+        {
+          "name": "Yarn",
+          "count": 14
+        },
+        {
+          "name": "Vite",
+          "count": 13
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 48
+        },
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 47
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 44
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 36
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 35
+        },
+        {
+          "name": "Online Courses or Certification (includes all media types)",
+          "count": 33
+        }
+      ],
+      "salary": {
+        "median_usd": 61956,
+        "p25_usd": 13328,
+        "p75_usd": 101871,
+        "sample_size": 46
+      },
+      "experience": {
+        "median_years": 10.0,
+        "p25_years": 4.0,
+        "p75_years": 23.5
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 44,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 23,
+        "Some college/university study without earning a degree": 15,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 13,
+        "Associate degree (A.A., A.S., etc.)": 6
+      },
+      "employment": {
+        "Employed": 67,
+        "Independent contractor, freelancer, or self-employed": 31,
+        "Not employed": 8,
+        "I prefer not to say": 5
+      }
+    },
+    "Software Architect": {
+      "sample_count": 2684,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "count": 1413
+        },
+        {
+          "name": "SQL",
+          "count": 1353
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 1254
+        },
+        {
+          "name": "Python",
+          "count": 1155
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 1045
+        },
+        {
+          "name": "TypeScript",
+          "count": 1007
+        },
+        {
+          "name": "C#",
+          "count": 801
+        },
+        {
+          "name": "Java",
+          "count": 700
+        },
+        {
+          "name": "PowerShell",
+          "count": 669
+        },
+        {
+          "name": "C++",
+          "count": 430
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "SQL",
+          "count": 774
+        },
+        {
+          "name": "Python",
+          "count": 769
+        },
+        {
+          "name": "JavaScript",
+          "count": 699
+        },
+        {
+          "name": "TypeScript",
+          "count": 643
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 639
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 539
+        },
+        {
+          "name": "C#",
+          "count": 527
+        },
+        {
+          "name": "Rust",
+          "count": 522
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 1136
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 760
+        },
+        {
+          "name": "SQLite",
+          "count": 701
+        },
+        {
+          "name": "MySQL",
+          "count": 687
+        },
+        {
+          "name": "Redis",
+          "count": 651
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 487
+        },
+        {
+          "name": "MongoDB",
+          "count": 469
+        },
+        {
+          "name": "MariaDB",
+          "count": 434
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 822
+        },
+        {
+          "name": "React",
+          "count": 701
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 524
+        },
+        {
+          "name": "jQuery",
+          "count": 422
+        },
+        {
+          "name": "Angular",
+          "count": 421
+        },
+        {
+          "name": "ASP.NET",
+          "count": 334
+        },
+        {
+          "name": "Express",
+          "count": 320
+        },
+        {
+          "name": "Spring Boot",
+          "count": 310
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 1357
+        },
+        {
+          "name": "npm",
+          "count": 1039
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 847
+        },
+        {
+          "name": "Microsoft Azure",
+          "count": 706
+        },
+        {
+          "name": "Pip",
+          "count": 700
+        },
+        {
+          "name": "Kubernetes",
+          "count": 697
+        },
+        {
+          "name": "NuGet",
+          "count": 527
+        },
+        {
+          "name": "Google Cloud",
+          "count": 456
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 1402
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 1143
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 956
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 938
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 909
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 802
+        }
+      ],
+      "salary": {
+        "median_usd": 100700,
+        "p25_usd": 60328,
+        "p75_usd": 148791,
+        "sample_size": 1623
+      },
+      "experience": {
+        "median_years": 23.0,
+        "p25_years": 15.0,
+        "p75_years": 30.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 1063,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 903,
+        "Some college/university study without earning a degree": 327,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 161,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 113
+      },
+      "employment": {
+        "Employed": 2085,
+        "Independent contractor, freelancer, or self-employed": 485,
+        "Not employed": 63,
+        "Retired": 18
+      }
+    },
+    "Engineering Manager": {
+      "sample_count": 1068,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "count": 536
+        },
+        {
+          "name": "SQL",
+          "count": 492
+        },
+        {
+          "name": "Python",
+          "count": 484
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 469
+        },
+        {
+          "name": "TypeScript",
+          "count": 402
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 389
+        },
+        {
+          "name": "Java",
+          "count": 226
+        },
+        {
+          "name": "C#",
+          "count": 215
+        },
+        {
+          "name": "PowerShell",
+          "count": 187
+        },
+        {
+          "name": "Go",
+          "count": 154
+        }
+      ],
+      "languages_wanted": [
+        {
+          "name": "Python",
+          "count": 311
+        },
+        {
+          "name": "SQL",
+          "count": 285
+        },
+        {
+          "name": "TypeScript",
+          "count": 266
+        },
+        {
+          "name": "JavaScript",
+          "count": 250
+        },
+        {
+          "name": "HTML/CSS",
+          "count": 229
+        },
+        {
+          "name": "Rust",
+          "count": 225
+        },
+        {
+          "name": "Bash/Shell (all shells)",
+          "count": 215
+        },
+        {
+          "name": "Go",
+          "count": 204
+        }
+      ],
+      "databases": [
+        {
+          "name": "PostgreSQL",
+          "count": 437
+        },
+        {
+          "name": "Redis",
+          "count": 289
+        },
+        {
+          "name": "MySQL",
+          "count": 265
+        },
+        {
+          "name": "SQLite",
+          "count": 238
+        },
+        {
+          "name": "Microsoft SQL Server",
+          "count": 196
+        },
+        {
+          "name": "Elasticsearch",
+          "count": 180
+        },
+        {
+          "name": "MongoDB",
+          "count": 159
+        },
+        {
+          "name": "MariaDB",
+          "count": 137
+        }
+      ],
+      "frameworks": [
+        {
+          "name": "Node.js",
+          "count": 319
+        },
+        {
+          "name": "React",
+          "count": 314
+        },
+        {
+          "name": "Next.js",
+          "count": 155
+        },
+        {
+          "name": "jQuery",
+          "count": 146
+        },
+        {
+          "name": "Express",
+          "count": 130
+        },
+        {
+          "name": "ASP.NET Core",
+          "count": 124
+        },
+        {
+          "name": "FastAPI",
+          "count": 113
+        },
+        {
+          "name": "Spring Boot",
+          "count": 108
+        }
+      ],
+      "platforms": [
+        {
+          "name": "Docker",
+          "count": 519
+        },
+        {
+          "name": "npm",
+          "count": 421
+        },
+        {
+          "name": "Amazon Web Services (AWS)",
+          "count": 409
+        },
+        {
+          "name": "Pip",
+          "count": 282
+        },
+        {
+          "name": "Kubernetes",
+          "count": 272
+        },
+        {
+          "name": "Homebrew",
+          "count": 259
+        },
+        {
+          "name": "Google Cloud",
+          "count": 225
+        },
+        {
+          "name": "Terraform",
+          "count": 219
+        }
+      ],
+      "learning_resources": [
+        {
+          "name": "Technical documentation (is generated for/by the tool or system)",
+          "count": 480
+        },
+        {
+          "name": "AI CodeGen tools or AI-enabled apps",
+          "count": 383
+        },
+        {
+          "name": "Other online resources (e.g. standard search, forum, online community)",
+          "count": 380
+        },
+        {
+          "name": "Videos (not associated with specific online course or certification)",
+          "count": 344
+        },
+        {
+          "name": "Stack Overflow or Stack Exchange",
+          "count": 321
+        },
+        {
+          "name": "Blogs or podcasts",
+          "count": 282
+        }
+      ],
+      "salary": {
+        "median_usd": 130000,
+        "p25_usd": 86591,
+        "p75_usd": 189692,
+        "sample_size": 713
+      },
+      "experience": {
+        "median_years": 20.0,
+        "p25_years": 15.0,
+        "p75_years": 28.0
+      },
+      "education": {
+        "Bachelor’s degree (B.A., B.S., B.Eng., etc.)": 455,
+        "Master’s degree (M.A., M.S., M.Eng., MBA, etc.)": 363,
+        "Some college/university study without earning a degree": 113,
+        "Professional degree (JD, MD, Ph.D, Ed.D, etc.)": 66,
+        "Secondary school (e.g. American high school, German Realschule or Gymnasium, etc.)": 34
+      },
+      "employment": {
+        "Employed": 948,
+        "Independent contractor, freelancer, or self-employed": 82,
+        "Not employed": 20,
+        "Retired": 10
+      }
+    }
+  },
+  "role_aliases": {
+    "data scientist": "Data Scientist",
+    "data science": "Data Scientist",
+    "machine learning": "AI / ML Engineer",
+    "ml engineer": "AI / ML Engineer",
+    "ai engineer": "AI / ML Engineer",
+    "deep learning": "AI / ML Engineer",
+    "data engineer": "Data Engineer",
+    "etl": "Data Engineer",
+    "analyst": "Data / Business Analyst",
+    "business analyst": "Data / Business Analyst",
+    "full stack": "Full-Stack Developer",
+    "fullstack": "Full-Stack Developer",
+    "backend": "Back-End Developer",
+    "back end": "Back-End Developer",
+    "frontend": "Front-End Developer",
+    "front end": "Front-End Developer",
+    "web developer": "Full-Stack Developer",
+    "mobile": "Mobile Developer",
+    "android": "Mobile Developer",
+    "ios": "Mobile Developer",
+    "flutter": "Mobile Developer",
+    "devops": "DevOps Engineer",
+    "sre": "DevOps Engineer",
+    "cloud": "Cloud Engineer",
+    "aws": "Cloud Engineer",
+    "azure": "Cloud Engineer",
+    "security": "Cybersecurity Engineer",
+    "cybersecurity": "Cybersecurity Engineer",
+    "game": "Game Developer",
+    "unity": "Game Developer",
+    "unreal": "Game Developer",
+    "qa": "QA / Test Engineer",
+    "testing": "QA / Test Engineer",
+    "ux": "UX / UI Designer",
+    "designer": "UX / UI Designer",
+    "dba": "Database Administrator",
+    "embedded": "Embedded / IoT Developer",
+    "iot": "Embedded / IoT Developer",
+    "architect": "Software Architect",
+    "manager": "Engineering Manager"
+  }
+}
